@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "https://decision-app-backend.onrender.com/api",
+  baseURL: "https://decision-app-backend-wgq0.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
